@@ -4,8 +4,10 @@ function validateForm() {
 
   if (email === "" || password === "") {
     alert("Both fields are required!");
-    return false;
+    return false; // Stop form submission
   }
 
-  return true;
+  // If both fields are filled, redirect to home.html
+  window.location.href = "home.html";
+  return false; // Prevent default form submission
 }
