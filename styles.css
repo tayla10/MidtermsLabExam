@@ -1,11 +1,48 @@
 body {
-  font-family: Arial;
+  font-family: 'Arial', sans-serif;
+  background-color: #fffaf0; /* light cream background */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
 }
+
 form {
-  border: 1px solid #ccc;
-  padding: 20px;
+  background-color: #ffe4e1; /* soft pink background */
+  border: 2px solid #f8c8dc; /* lighter pink border */
+  border-radius: 10px;
+  padding: 30px 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #8b4a58; /* deep pink-brown text */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #f8c8dc;
+  border-radius: 5px;
+  background-color: #fff5f5;
+}
+
+button {
+  background-color: #f8b6c1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f48ca1;
 }
